@@ -36,3 +36,21 @@
     transform: rotate(90deg);
   }
 }
+.Cards {
+  text-align: left;
+  padding: 50px;
+}
+
+.Card-button {
+  background-color: #9b4025;
+  border: 5px solid gray;
+  color: rgb(223, 203, 203);
+  padding: 15px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
