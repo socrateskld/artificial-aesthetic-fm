@@ -1,19 +1,18 @@
-import logo from "./logo.svg";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import Cards from "./Cards";
+import Producers from "./Producers.json";
+import { Container, Row, Col } from "react-bootstrap";
+import { ProducerCard } from "./ProducerCard";
 
 function App() {
   return (
-    <div className="App">
-      <header
-        style={{ backgroundColor: "MidnightBlue" }}
-        className="App-header"
-      >
-        <img src={logo} className="App-logo" alt="logo" />
-        <Cards />
-        <Cards />
-      </header>
-    </div>
+    <Container>
+      {Producers.map((Producers) => (
+        <Row>
+          <ProducerCard Producers={Producers} />
+        </Row>
+      ))}
+    </Container>
   );
 }
 

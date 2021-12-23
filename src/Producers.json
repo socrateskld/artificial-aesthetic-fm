@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "Name": "Socrates",
+    "Genre": "Electronic",
+    "Image": "https://scontent-lcy1-1.xx.fbcdn.net/v/t1.6435-9/41457223_10218121334211110_2955654488603492352_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=ErYvIlX0oGQAX8EktbE&_nc_ht=scontent-lcy1-1.xx&oh=00_AT9LLOTk69bp_jPCqJzyh6WGbr2IJ0q3-d4jioPd5P2c-A&oe=61EBBF9E",
+    "Days": "Monday To Friday",
+    "Time": "20:00 - 22:00Pm"
+  },
+  {
+    "id": 2,
+    "Name": "Theo",
+    "Genre": "Jazz And Funk",
+    "Image": "",
+    "Days": "Weekend",
+    "Time": "13:00 - 15:00Pm"
+  },
+  {
+    "id": 3,
+    "Name": "Asil",
+    "Genre": "Minimal House",
+    "Image": "https://scontent-lcy1-1.xx.fbcdn.net/v/t1.6435-9/149447772_4426492590713236_4693459795338168219_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=nEyRRRoHtv8AX-335eK&_nc_ht=scontent-lcy1-1.xx&oh=00_AT8-AYXsM9LvQ4askfO3lJh1XUMZmCyfKgfv43x0XhT-mA&oe=61E947C2",
+    "Days": "Monday To Friday",
+    "Time": "15:00 - 17:00Pm"
+  }
+]
