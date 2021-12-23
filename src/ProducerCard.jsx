@@ -5,13 +5,15 @@ import Logo from "./assets/aaa.jpeg";
 
 export function ProducerCard({ Producers, name }) {
   return (
-    <Card style={{ width: "18rem" }}>
-      <Card.Img variant="top" src={Producers.Image} />
+    <Card style={{ width: "19rem" }}>
+      <Card.Img src={Producers.Image} />
       <Card.Body>
-        <Card.Title>{Producers.Name}</Card.Title>
-        <Card.Text>{Producers.Days}</Card.Text>
+        <Card.Title>Name :{Producers.Name}</Card.Title>
+        <Card.Text>Genre :{Producers.Genre}</Card.Text>
+        <Card.Text>When :{Producers.Days}</Card.Text>
+        <Card.Text>Time :{Producers.Time}</Card.Text>
         <Button variant="primary" className="button">
-          Fuck Off
+          Read More
         </Button>
       </Card.Body>
     </Card>

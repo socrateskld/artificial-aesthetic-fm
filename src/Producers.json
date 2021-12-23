@@ -9,9 +9,9 @@
   },
   {
     "id": 2,
-    "Name": "Theo",
-    "Genre": "Jazz And Funk",
-    "Image": "",
+    "Name": "Romanos",
+    "Genre": "FreeStyle",
+    "Image": "https://scontent-lcy1-1.xx.fbcdn.net/v/t1.18169-9/18194848_1297934920326758_900779940666101446_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=174925&_nc_ohc=IBfmVoyTY_wAX9hZbhh&_nc_ht=scontent-lcy1-1.xx&oh=00_AT8iqPEUBOcNchPwLz19zDbj9XC8NkJJ_rF0RiDZ_jrjyQ&oe=61E8FEF2",
     "Days": "Weekend",
     "Time": "13:00 - 15:00Pm"
   },
@@ -22,5 +22,13 @@
     "Image": "https://scontent-lcy1-1.xx.fbcdn.net/v/t1.6435-9/149447772_4426492590713236_4693459795338168219_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=nEyRRRoHtv8AX-335eK&_nc_ht=scontent-lcy1-1.xx&oh=00_AT8-AYXsM9LvQ4askfO3lJh1XUMZmCyfKgfv43x0XhT-mA&oe=61E947C2",
     "Days": "Monday To Friday",
     "Time": "15:00 - 17:00Pm"
+  },
+  {
+    "id": 3,
+    "Name": "Tsougos",
+    "Genre": "Techno",
+    "Image": "https://scontent-lcy1-1.xx.fbcdn.net/v/t1.18169-9/13001189_10208136593107537_6349037289828228887_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=174925&_nc_ohc=W1tZmfw67U8AX9PtgAc&_nc_oc=AQkE6J0TCsMqvmDGEWGILKxgz_bOHmVpkGxlrATSRmxY24SZljbCtWc5RjlYRq6TpBE&_nc_ht=scontent-lcy1-1.xx&oh=00_AT_oHtn8f8USNuVcV1dxJaGQ6MGgp6MvnBOwbB7EkCcsRw&oe=61EB7CC4",
+    "Days": "Monday To Friday",
+    "Time": "17:00 - 19:00Pm"
   }
 ]
