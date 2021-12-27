@@ -3,16 +3,22 @@ import "./App.css";
 import Producers from "./Producers.json";
 import { Container, Row, Col } from "react-bootstrap";
 import { ProducerCard } from "./ProducerCard";
+import NavBarComponent from "./NavBarComponent";
 
 function App() {
   return (
-    <Container>
-      {Producers.map((Producers) => (
+    <>
+      <NavBarComponent />
+      <Container style={{ marginTop: "50px" }}>
         <Row>
-          <ProducerCard Producers={Producers} />
+          {Producers.map((Producers) => (
+            <Col>
+              <ProducerCard Producers={Producers} />
+            </Col>
+          ))}
         </Row>
-      ))}
-    </Container>
+      </Container>
+    </>
   );
 }
 
