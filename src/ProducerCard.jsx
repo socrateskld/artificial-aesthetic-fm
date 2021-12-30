@@ -1,12 +1,13 @@
-import { Card, Badge, Button, Row, Col } from "react-bootstrap";
-import Css from "./App.css";
+import { Card, Button, Row, Col } from "react-bootstrap";
 
 export function ProducerCard({ Producers }) {
   return (
     <Card
-      className="mt-3b"
       border="dark"
-      style={{ width: "13rem", color: "#ECDBBA", background: "#1F4068" }}
+      style={{
+        color: "#ECDBBA",
+        background: "#1F4068",
+      }}
     >
       <Card.Img className="mb-2" src={Producers.Image} />
       <Card.Body>
@@ -23,7 +24,7 @@ export function ProducerCard({ Producers }) {
                 }}
               >
                 {" "}
-                Name :{" "}
+                Name:{" "}
               </span>
               {Producers.Name}
             </Card.Title>
